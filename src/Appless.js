@@ -8,7 +8,7 @@ class Appless extends Component {
   render() {
     return (
       <div>
-      <Router>
+      {/* <Router>
         <Route exact path='/' render={<h1>HI</h1>}></Route>
         <h4>Project 1</h4>
         <a href='/project1'>Project 1 button</a>
@@ -21,7 +21,7 @@ class Appless extends Component {
         <Route exact path='/project4'></Route>
         <h4>Project 5</h4>
         <Route exact path='/project5'></Route>
-      </Router>
+      </Router> */}
       </div>
     );
   }
