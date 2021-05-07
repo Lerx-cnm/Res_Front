@@ -1,0 +1,19 @@
+.img {
+    border-radius: 5px;
+    margin-top: 90px;
+    max-width: 90%;
+    height: auto;
+  }
+
+.heading1 {
+    /* font: bold 42px; */
+    font-size: 42px;
+    color:floralwhite;
+    margin-top: 90px;
+}
+
+.button1 {
+    bottom: 100px;
+}
+
+  
