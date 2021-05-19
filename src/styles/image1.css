@@ -6,14 +6,30 @@
   }
 
 .heading1 {
-    /* font: bold 42px; */
+    position: relative;
+    text-align: center;
+    top: 50px;
     font-size: 42px;
     color:floralwhite;
-    margin-top: 90px;
+    /* margin-top: 90px; */
+    margin-bottom: 100px;
 }
 
 .button1 {
-    bottom: 100px;
+    position: relative;
+    top:450px;
+    vertical-align: middle;
+    border: 2px solid lightgray;
+    text-decoration: none;
+    color: #EEEEEE;
+    padding: 10px 50px 10px 50px;
+}
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/stair.jpg');
+    /* background-image: url(../images/stair.jpg); */
+}
+p{
+    white-space: pre;
 }
 
   
