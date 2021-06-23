@@ -14,16 +14,13 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path = '/'>
-            {<Redirect to='/NathanSteed' />}
-          </Route>
           <Route exact path = '/Work' component={WorkContainer}/>
-          <Route exact path = '/NathanSteed' component={Home} />
-          <Route path = '/NathanSteed/Project1' component={Project1} />
-          <Route path = '/NathanSteed/Project2' component={Project2} />
-          <Route path = '/NathanSteed/Project3' component={Project3} />
-          <Route path = '/NathanSteed/Project4' component={Project4} />
-          <Route path = '/NathanSteed/Project5' component={Project5} />
+          <Route exact path = '/' component={Home} />
+          <Route path = '/Project1' component={Project1} />
+          <Route path = '/Project2' component={Project2} />
+          <Route path = '/Project3' component={Project3} />
+          <Route path = '/Project4' component={Project4} />
+          <Route path = '/Project5' component={Project5} />
         </Switch>
       </Router>
     </div>

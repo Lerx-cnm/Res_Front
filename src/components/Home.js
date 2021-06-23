@@ -1,7 +1,7 @@
 import '../styles/image1.css'
 import { Link } from 'react-router-dom';
 // import Stair from '../images/stair.jpg';
-const text= 'I am a current student attending university for Computer Engineering with a passion for Software Development.\n\n lorem ispumajsdkfljasdklfjaksldfjkalsdjfklajsdfklajsdklf;ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffddddddddddddddddddddddd'
+const text= 'I am a current student attending university for Computer Engineering with a passion for Software Development.\n  The'
 const Home = () =>{
     
 
