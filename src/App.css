@@ -2,14 +2,95 @@
   text-align: center;
 }
 
-body {
-  background-color: rgb(63, 63, 63);
-  
+.para{
+  /* josh a hoe */
+  white-space: pre-wrap;
 }
 
-@media screen and (max-width:320px){
-  /* uh, yeah, small screens */
+/* .navbar{
+  position: relative;
+  border: 2px solid lightgray;
+  text-decoration: none;
+  color: #EEEEEE;
+  padding: 10px 10px 10px 10px;
+  margin-right: 10px;
+  margin-top:10px;
+  top: 500px
+} */
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+  flex-wrap: wrap;
 }
+
+@media screen and (max-width:380px){
+  /* uh, yeah, small screens */
+  .navbarl{
+    position: fixed;
+    border: 2px solid lightgray;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px 10px;
+    margin-right:10px;
+    margin-top:10px;
+    bottom: 5%;
+    left: 10%;
+  }
+
+  .navbarc{
+    position: fixed;
+    border: 2px solid lightgray;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px 10px;
+    margin-right:10px;
+    margin-top:10px;
+    bottom: 5%;
+    align-items: center;
+  }
+
+  .navbarr{
+    position: fixed;
+    border: 2px solid lightgray;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px 10px;
+    margin-right:10px;
+    margin-top:10px;
+    bottom: 5%;
+    right: 10px;
+  }
+}
+
+@media(min-device-width:381) and (max-device-width:480){
+  .navbarl{
+    position: fixed;
+    border: 2px solid lightgray;
+    text-decoration: none;
+    color: red;
+    padding: 10px 10px 10px;
+    margin-right:10px;
+    margin-top:10px;
+    bottom: 5%;
+    left: 10%;
+  }
+}
+
+@media screen and (min-width:481){
+  .navbarl{
+    position: fixed;
+    border: 2px solid lightgray;
+    text-decoration: none;
+    color: blue;
+    padding: 10px 10px 10px;
+    margin-right:10px;
+    margin-top:10px;
+    bottom: 5%;
+    left: 10%;
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,6 +105,8 @@ body {
 .App-link {
   color: #61dafb;
 }
+
+
 
 @keyframes App-logo-spin {
   from {

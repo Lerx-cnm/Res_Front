@@ -8,7 +8,8 @@ import Project5 from './components/projects/Project5';
 import About from './components/About';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import WorkContainer from './containers/WorkContainer'
+import WorkContainer from './containers/WorkContainer';
+import ContactContainer from './containers/ContactContainer';
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
       <Router>
       <Navbar />
         <Switch>
-          <Route exact path = '/Work' component={WorkContainer}/>
+          <Route path = '/Work' component={WorkContainer}/>
           <Route exact path = '/' component={Home} />
-          <Route exact path = '/about' component={About} />
+          <Route path = '/about' component={About} />
+          <Route path = '/contact' component={ContactContainer} />
           <Route path = '/Project1' component={Project1} />
           <Route path = '/Project2' component={Project2} />
           <Route path = '/Project3' component={Project3} />
